@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0%;
+  background: #007bff;
+  z-index: 1000;
+}
+
+.content {
+  padding: 20px;
+  height: 2000px;
+}
