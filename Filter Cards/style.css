@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.filter-btn.active {
+  background: #007bff;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  width: 120px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
