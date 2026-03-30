@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+#list {
+  margin: 20px;
+}
+
+.item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
