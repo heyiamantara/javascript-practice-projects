@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.accordion-btn {
+    width: 100%;
+    background-color: #eee;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-btn:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 15px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion-btn:active {
+    background-color: #bbb;
+}
