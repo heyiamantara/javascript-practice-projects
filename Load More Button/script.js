@@ -20,7 +20,7 @@ async function loadPosts() {
     });
 
     start += limit;
-    
+
     if (data.length < limit) {
       button.style.display = "none";
     }
